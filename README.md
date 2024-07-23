@@ -1,4 +1,4 @@
-# Grist-Invoice-Layout.github.io
+# Grist-IOLTA-Invoice.github.io
 Grist Custom Invoice
 redoing the invoice Grist provided
 
