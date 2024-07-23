@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Grist Invoice</title>
+    <title>Grist IOLTA Invoice</title>
 
     <!-- A template for showing an invoice in a Custom Widget in Grist. -->
     <!-- Uses Vue.js, moment, and the Grist Plugin API -->
@@ -39,7 +39,7 @@
         <div class="top">
           <div class="block">
             <div class="header">
-              <div class="meta title">Invoice</div>
+              <div class="meta title">IOLTA Invoice</div>
             </div>
             <div class="info"><span class="meta">Invoice Number</span> #{{ invoice.Number }}</div>
             <div class="info" v-if="invoice.Issued"><div class="meta date-tag">Issued</div> {{ invoice.Issued | asDate }}</div>
